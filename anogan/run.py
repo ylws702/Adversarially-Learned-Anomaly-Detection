@@ -44,8 +44,8 @@ def create_logdir(dataset, weight, label, rd):
     return "train_logs/{}/anogan/label{}/weight{}/rd{}".format(
         dataset, label, weight, rd)
 
-def train_and_test(dataset, nb_epochs, weight, degree, random_seed, label,
-                   enable_sm, score_method, enable_early_stop):
+def train_and_test(dataset: str, nb_epochs: int, weight: float, degree: int, random_seed: int, 
+                   label: int, enable_sm: bool, score_method: str, enable_early_stop: bool):
 
     """ Runs the AnoGAN on the specified dataset
 
