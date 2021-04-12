@@ -9,3 +9,4 @@ gensim
 pillow
 regex
 tensorflow-gpu==1.6
+pandas~=0.23

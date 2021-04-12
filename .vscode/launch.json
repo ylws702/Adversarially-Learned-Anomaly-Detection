@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: sonyf",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "anogan",
+                "sonyf",
+                "run",
+                // "--enable_sm"
+            ]
+        },
+        {
+            "name": "Python: convert.py",
+            "type": "python",
+            "request": "launch",
+            "program": "convert.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: kdd",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "anogan",
+                "kdd",
+                "run",
+                // "--enable_sm"
+            ]
+        },
+        {
+            "name": "Python: sony",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "anogan",
+                "sony",
+                "run",
+                // "--enable_sm"
+            ]
+        }
+    ]
+}
